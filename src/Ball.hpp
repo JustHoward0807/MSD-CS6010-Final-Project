@@ -5,27 +5,22 @@
 //  Created by Avishek Choudhury on 9/21/22.
 //
 
-#ifndef Ball_hpp
-#define Ball_hpp
-
 #pragma once
 #include <iostream>
-#include <string>
-#include <vector>
 #include <SFML/Graphics.hpp>
 
 class Ball {
 private:
-    float radius;
-    sf::CircleShape ball;
+    sf::Sprite ball;
     
 public:
-    Ball(float rad);
-    sf::CircleShape GetBall();
-    void SetBallProp();
+
+    sf::Sprite GetBall();
     void SetPosition(sf::Vector2f position);
     sf::Vector2f GetPosition();
     void Jump();
+    const sf::FloatRect getBoundary() const;
+    void setTexture(const sf::Texture& texture);
+    void setScale(const float& x, const float& y);
+    void rotate(const float& rotate);
 };
-
-#endif /* Ball_hpp */

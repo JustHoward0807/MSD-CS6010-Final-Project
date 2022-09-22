@@ -7,18 +7,10 @@
 
 #include "Ball.hpp"
 
-Ball::Ball(float rad) {
-    radius = rad;
-    ball = sf::CircleShape(radius);
-}
 
-sf::CircleShape Ball::GetBall() {
+//Return a Sprite class ball
+sf::Sprite Ball::GetBall() {
     return ball;
-}
-
-void Ball::SetBallProp() {
-    ball.setFillColor(sf::Color(100, 250, 50));
-    ball.setOrigin(0, 0);
 }
 
 void Ball::SetPosition(sf::Vector2f position) {
@@ -31,6 +23,21 @@ sf::Vector2f Ball::GetPosition() {
 
 void Ball::Jump() {
     sf::Vector2f position = ball.getPosition();
-    position.y += -0.3f;
+    position.y -=30;
     ball.setPosition(position.x, position.y);
+}
+
+const sf::FloatRect Ball::getBoundary() const {
+    return ball.getGlobalBounds();
+}
+
+void Ball::setTexture(const sf::Texture& texture) {
+    ball.setTexture(texture);
+}
+void Ball::setScale(const float& x, const float& y) {
+    ball.setScale(x,y);
+}
+
+void Ball::rotate(const float& rotate) {
+    ball.rotate(rotate);
 }
