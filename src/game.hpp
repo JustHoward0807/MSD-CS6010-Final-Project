@@ -15,6 +15,9 @@
 void RunGame();
 void CreateBall(sf::RenderWindow& window, Ball& ball);
 void CreateWalls(sf::RenderWindow& window, float position);
+bool IsColliding(Ball& ball);
+void ShowGameDetails();
+void OpenRestartWindow();
 const sf::RectangleShape MakeBrick(float x, float y);
 
 #endif /* game_hpp */

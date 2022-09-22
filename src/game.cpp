@@ -21,7 +21,6 @@ void RunGame() {
     
     while (window.isOpen())
     {
-        
         // check all the window's events that were triggered since the last iteration of the loop
         sf::Event event;
         while (window.pollEvent(event))
@@ -30,8 +29,15 @@ void RunGame() {
             if (event.type == sf::Event::Closed)
                 window.close();
         }
-        // clear the window with black color
+        
+        if (IsColliding(ball)) {
+            OpenRestartWindow();
+        }
+        
+        //Clear the window with black color
         window.clear(sf::Color::Black);
+        
+        //Making brick walls
         int i = 1200, j = 300;
         while (i <= 1500) {
             CreateWalls(window, i);
@@ -39,9 +45,49 @@ void RunGame() {
             i += 100;
             j -= 100;
         }
+        
+        //Making the moving ball
         CreateBall(window, ball);
+        
+        //Displaying the window
         window.display();
     }
+}
+
+void OpenRestartWindow() {
+    sf::RenderWindow restartWindow(sf::VideoMode(1000, 1000), "Restart window");
+    while (restartWindow.isOpen()) {
+        sf::Event event;
+        while (restartWindow.pollEvent(event))
+        {
+            // "close requested" event: we close the window
+            if (event.type == sf::Event::Closed)
+                restartWindow.close();
+        }
+        
+        restartWindow.clear(sf::Color::Black);
+        ShowGameDetails();
+    }
+}
+
+void ShowGameDetails() {
+//    CreateRestart();
+//    CreateExit();
+//    sf::Texture texture;
+//            if(!texture.loadFromFile("button1.png"))
+//            {
+//                    return 1;
+//            }
+//            sf::Sprite sprite;
+//            sprite.setTexture(texture);
+}
+
+bool IsColliding(Ball& ball) {
+    if (ball.GetPosition().y > 1100 || ball.GetPosition().y < 400) {
+          //If touch the boundary then stop.
+        return true;
+    }
+    return false;
 }
 
 void CreateBall(sf::RenderWindow& window, Ball& ball) {
@@ -56,25 +102,12 @@ void CreateBall(sf::RenderWindow& window, Ball& ball) {
 }
 
 void CreateWalls(sf::RenderWindow& window, float wallPos) {
-//    sf::RectangleShape line1(sf::Vector2f(window.getSize().x, 10));
-//    line1.rotate(0);
-//    line1.setPosition(0, 300);
-//    line1.setFillColor(sf::Color(100, 100, 100));
-
-//    sf::RectangleShape line2(sf::Vector2f(window.getSize().x, 10));
-//    line2.rotate(0);
-//    line2.setPosition(0, 1300);
-//    line2.setFillColor(sf::Color(100, 100, 100));
-    
     int itrCount = window.getSize().x / 200;
     float x = 0;
     for (int i = 0; i < itrCount; i++) {
         window.draw(MakeBrick(x, wallPos));
-        //wallPos += 10;
         x += 200;
     }
-    //window.draw(line1);
-    //window.draw(line2);
 }
 
 const sf::RectangleShape MakeBrick(float x, float y) {

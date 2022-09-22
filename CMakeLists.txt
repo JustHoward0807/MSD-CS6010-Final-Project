@@ -25,7 +25,7 @@ cmake_minimum_required(VERSION 3.15)
 project(MSD-CS6010-Final-Project)
 
 #the project contains an executable named testSFML that uses the following cpp files
-add_executable(MSD-CS6010-Final-Project src/main.cpp)
+add_executable(MSD-CS6010-Final-Project src/main.cpp src/game.cpp src/game.hpp src/Ball.cpp src/Ball.hpp)
 
 #create a folder named "cmake" at the top of your project and put the
 #findSFML.cmake file in it.  This line tells Cmake to look there for
