@@ -3,30 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		46FB11DD9DC347ADAA18E679 /* ZERO_CHECK */ = {
+		B5C84AEA00A24FCE936DBC31 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6F9E7676F16241F4A40C33D8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 72E3F72E83B04EE48FBD48A4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				A6CFDEFDA25F17CCB420A6FB /* Generate CMakeFiles/ZERO_CHECK */,
+				5FC89867EDA371048BA7EBAD /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		E0397DAFB01B48AE9A9C0834 /* ALL_BUILD */ = {
+		E314E31C64BC4A548BB1AA4F /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 04775258159A4AD2943247E4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 170F3221B90D499588E3FB2D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				A18DC9156638982DD588E9B7 /* Generate CMakeFiles/ALL_BUILD */,
+				5C15C223511FE5E934893A4D /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				E6D6FB8F132C48FA9D1ED660 /* PBXTargetDependency */,
-				1F40392AD2F34FA4ACB9F002 /* PBXTargetDependency */,
+				9EEC5635A4E949A080CD7F01 /* PBXTargetDependency */,
+				42E036E645D84829A2A3B53D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,51 +34,90 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0A089F561371487381DF775C /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFC4A20914534181A67659A6 /* Ball.cpp */; };
-		37C9D22BA6CB4003A8433A0D /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB9F75DD02427D942BC25B /* game.cpp */; };
-		ACDDED03DDA547EF8B834F5E /* Obstacles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66451C5B3D34F998D579600 /* Obstacles.cpp */; };
-		EF86567E726E4B459A08D67F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1630276AC5348CCBC7BA607 /* main.cpp */; };
+		26C08CBEC9924FBCBB9E2FCA /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.hpp */ = {isa = PBXBuildFile; fileRef = 92956AF6311E4552A5C311D9 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.hpp */; };
+		562CC66418554EFCA2C76473 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.hpp */ = {isa = PBXBuildFile; fileRef = 3CA3F813C67D43BDB4820E44 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.hpp */; };
+		6655E31FB7EA4757ACCFE8B2 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 58E1FAD80C98404880901B5A /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/main.cpp */; };
+		8E4192CC84F445B48549B81B /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 11C9A7EC226E4F4981FE3DFE /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/CMakeLists.txt */; };
+		B35BA1AE35C348969C197E2D /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.cpp */ = {isa = PBXBuildFile; fileRef = 57A5584CED4B4D86982236CC /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.cpp */; };
+		B477CDE0E2BF472F83521959 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.hpp */ = {isa = PBXBuildFile; fileRef = 9B3391634CB747E48E168306 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.hpp */; };
+		B90B7268938D44E699849246 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.cpp */ = {isa = PBXBuildFile; fileRef = 7F14DC26E5D844BBA30F8D4B /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.cpp */; };
+		C63E942E78EF48FEB601E488 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.cpp */ = {isa = PBXBuildFile; fileRef = 6972F8A1BC6C4AEBB544118C /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.cpp */; };
+		ECC10FBF0EA84B7B8E79B63D /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.cpp */ = {isa = PBXBuildFile; fileRef = 57D7A8364C5F4B2FA7B17155 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.cpp */; };
+		ED3C6AE1060E437CB3239B34 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.hpp */ = {isa = PBXBuildFile; fileRef = C92B2A25D75140B28536766D /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.hpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildStyle section */
+		9154D11EEC094A4DAA033E6F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		93A139E0A8C44812A81A9AF7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D92A0EC332C94C71A23A6AA3 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E975B1202E6F4DF08CD39F35 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
 /* Begin PBXContainerItemProxy section */
-		4F2CA06EACA8447DA1BFCC40 /* PBXContainerItemProxy */ = {
+		4205458163834930907CB472 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D7FA5CFC38D44F6CA92EB232 /* Project object */;
+			containerPortal = A0A113E7C9AF4473A635AA09 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46FB11DD9DC347ADAA18E679;
-			remoteInfo = ZERO_CHECK;
-		};
-		8CC06F25B040480694A6774D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7FA5CFC38D44F6CA92EB232 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46FB11DD9DC347ADAA18E679;
-			remoteInfo = ZERO_CHECK;
-		};
-		A0D355DD107F41329BEAAA24 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7FA5CFC38D44F6CA92EB232 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C9F8242AE4A24963BF110EF4;
+			remoteGlobalIDString = 15A0DFB436FC4FBFAAA32883;
 			remoteInfo = "MSD-CS6010-Final-Project";
+		};
+		CE751EA719E94B1F85518EBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A113E7C9AF4473A635AA09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C84AEA00A24FCE936DBC31;
+			remoteInfo = ZERO_CHECK;
+		};
+		F2BB058C877F49DB8300F2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A113E7C9AF4473A635AA09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C84AEA00A24FCE936DBC31;
+			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F22460AE7A48DF8110AE29 /* game.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = game.hpp; path = src/game.hpp; sourceTree = SOURCE_ROOT; };
-		3D3FD61BA8D44ABA8995F81D /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		42419D71E7014E2B84985731 /* Obstacles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Obstacles.hpp; path = src/Obstacles.hpp; sourceTree = SOURCE_ROOT; };
-		73CD4193D4F04111B6F357FF /* MSD-CS6010-Final-Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "MSD-CS6010-Final-Project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ECB9F75DD02427D942BC25B /* game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game.cpp; path = src/game.cpp; sourceTree = SOURCE_ROOT; };
-		A1630276AC5348CCBC7BA607 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		B66451C5B3D34F998D579600 /* Obstacles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Obstacles.cpp; path = src/Obstacles.cpp; sourceTree = SOURCE_ROOT; };
-		CFC4A20914534181A67659A6 /* Ball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ball.cpp; path = src/Ball.cpp; sourceTree = SOURCE_ROOT; };
-		E6E9F76834094A89BC0D7D3C /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F843A83B83AE450B85E9696B /* Ball.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Ball.hpp; path = src/Ball.hpp; sourceTree = SOURCE_ROOT; };
+		11C9A7EC226E4F4981FE3DFE /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		11E9B98AC70B4717B76BE711 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3CA3F813C67D43BDB4820E44 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Ball.hpp; path = src/Ball.hpp; sourceTree = SOURCE_ROOT; };
+		57A5584CED4B4D86982236CC /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextBox.cpp; path = src/TextBox.cpp; sourceTree = SOURCE_ROOT; };
+		57D7A8364C5F4B2FA7B17155 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game.cpp; path = src/game.cpp; sourceTree = SOURCE_ROOT; };
+		58E1FAD80C98404880901B5A /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		6972F8A1BC6C4AEBB544118C /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ball.cpp; path = src/Ball.cpp; sourceTree = SOURCE_ROOT; };
+		7F14DC26E5D844BBA30F8D4B /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Obstacles.cpp; path = src/Obstacles.cpp; sourceTree = SOURCE_ROOT; };
+		92956AF6311E4552A5C311D9 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = game.hpp; path = src/game.hpp; sourceTree = SOURCE_ROOT; };
+		9B3391634CB747E48E168306 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TextBox.hpp; path = src/TextBox.hpp; sourceTree = SOURCE_ROOT; };
+		C92B2A25D75140B28536766D /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Obstacles.hpp; path = src/Obstacles.hpp; sourceTree = SOURCE_ROOT; };
+		F2659D54A288441AB6779F61 /* MSD-CS6010-Final-Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "MSD-CS6010-Final-Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		64B7DA66910C47E9B6227DED /* Frameworks */ = {
+		1B46EF8A54E546EE925CF7CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,74 +127,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08E828AB25B1410CBADEB147 = {
+		0C6B27776F854ADDAF24C5E2 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				3C21AF63926A42669A5C6610 /* MSD-CS6010-Final-Project */,
-				F469D97BC9AD464B84885B4C /* ALL_BUILD */,
-				8DB432F4539240FB882BFB76 /* Products */,
-				649E2EDF745C4E85B0F33426 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		3C21AF63926A42669A5C6610 /* MSD-CS6010-Final-Project */ = {
-			isa = PBXGroup;
-			children = (
-				9F10EF5679334D96BA0546EB /* Source Files */,
-				7C5FD90C292F4B43BB10C61F /* Header Files */,
-				3D3FD61BA8D44ABA8995F81D /* CMakeLists.txt */,
-			);
-			name = "MSD-CS6010-Final-Project";
-			sourceTree = "<group>";
-		};
-		649E2EDF745C4E85B0F33426 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7C5FD90C292F4B43BB10C61F /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				F843A83B83AE450B85E9696B /* Ball.hpp */,
-				42419D71E7014E2B84985731 /* Obstacles.hpp */,
-				04F22460AE7A48DF8110AE29 /* game.hpp */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		8DB432F4539240FB882BFB76 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				73CD4193D4F04111B6F357FF /* MSD-CS6010-Final-Project */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9F10EF5679334D96BA0546EB /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				CFC4A20914534181A67659A6 /* Ball.cpp */,
-				B66451C5B3D34F998D579600 /* Obstacles.cpp */,
-				7ECB9F75DD02427D942BC25B /* game.cpp */,
-				A1630276AC5348CCBC7BA607 /* main.cpp */,
+				6972F8A1BC6C4AEBB544118C /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.cpp */,
+				7F14DC26E5D844BBA30F8D4B /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.cpp */,
+				57A5584CED4B4D86982236CC /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.cpp */,
+				57D7A8364C5F4B2FA7B17155 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.cpp */,
+				58E1FAD80C98404880901B5A /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/main.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		B07C85C1896942F5BC4A531D /* CMake Rules */ = {
+		354B651F0A54408AAE209C59 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		F469D97BC9AD464B84885B4C /* ALL_BUILD */ = {
+		4E1131D070E34A359821B68C /* MSD-CS6010-Final-Project */ = {
 			isa = PBXGroup;
 			children = (
-				B07C85C1896942F5BC4A531D /* CMake Rules */,
-				E6E9F76834094A89BC0D7D3C /* CMakeLists.txt */,
+				0C6B27776F854ADDAF24C5E2 /* Source Files */,
+				67F9AC8CF7004DE0A8F87FAA /* Header Files */,
+				11C9A7EC226E4F4981FE3DFE /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/CMakeLists.txt */,
+			);
+			name = "MSD-CS6010-Final-Project";
+			sourceTree = "<group>";
+		};
+		63C5212D83F8474080B21655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67F9AC8CF7004DE0A8F87FAA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA3F813C67D43BDB4820E44 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.hpp */,
+				C92B2A25D75140B28536766D /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.hpp */,
+				9B3391634CB747E48E168306 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.hpp */,
+				92956AF6311E4552A5C311D9 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C1ED40AF98D042F7BF5062E5 = {
+			isa = PBXGroup;
+			children = (
+				4E1131D070E34A359821B68C /* MSD-CS6010-Final-Project */,
+				D33BE682BADC43458B412F1A /* ALL_BUILD */,
+				CF99EAA1F243457B99253DD1 /* Products */,
+				63C5212D83F8474080B21655 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF99EAA1F243457B99253DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2659D54A288441AB6779F61 /* MSD-CS6010-Final-Project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33BE682BADC43458B412F1A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				354B651F0A54408AAE209C59 /* CMake Rules */,
+				11E9B98AC70B4717B76BE711 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -163,52 +204,71 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9F8242AE4A24963BF110EF4 /* MSD-CS6010-Final-Project */ = {
+		15A0DFB436FC4FBFAAA32883 /* MSD-CS6010-Final-Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4174BC7806F42248C6F0B19 /* Build configuration list for PBXNativeTarget "MSD-CS6010-Final-Project" */;
+			buildConfigurationList = 6B2343E49A404FFC8786BEF6 /* Build configuration list for PBXNativeTarget "MSD-CS6010-Final-Project" */;
 			buildPhases = (
-				41E36E25C2524187A90B26C8 /* Sources */,
-				64B7DA66910C47E9B6227DED /* Frameworks */,
+				04B0D8A6AA6B471598187561 /* Sources */,
+				1B46EF8A54E546EE925CF7CF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CDECA18DC1374AE89B5D0C14 /* PBXTargetDependency */,
+				DFC7AD538758485F8678BB75 /* PBXTargetDependency */,
 			);
 			name = "MSD-CS6010-Final-Project";
 			productName = "MSD-CS6010-Final-Project";
-			productReference = 73CD4193D4F04111B6F357FF /* MSD-CS6010-Final-Project */;
+			productReference = F2659D54A288441AB6779F61 /* MSD-CS6010-Final-Project */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D7FA5CFC38D44F6CA92EB232 /* Project object */ = {
+		A0A113E7C9AF4473A635AA09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
 			};
-			buildConfigurationList = C3CCA3FB6C894FE9BFE6070E /* Build configuration list for PBXProject "MSD-CS6010-Final-Project" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
+			buildConfigurationList = 933899661080459F9ACD4305 /* Build configuration list for PBXProject "MSD-CS6010-Final-Project" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E975B1202E6F4DF08CD39F35 /* Debug */,
+				93A139E0A8C44812A81A9AF7 /* Release */,
+				D92A0EC332C94C71A23A6AA3 /* MinSizeRel */,
+				9154D11EEC094A4DAA033E6F /* RelWithDebInfo */,
 			);
-			mainGroup = 08E828AB25B1410CBADEB147;
-			projectDirPath = "/Users/howard/MSD-CS6010-Final-Project";
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C1ED40AF98D042F7BF5062E5;
+			projectDirPath = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project";
 			projectRoot = "";
 			targets = (
-				E0397DAFB01B48AE9A9C0834 /* ALL_BUILD */,
-				C9F8242AE4A24963BF110EF4 /* MSD-CS6010-Final-Project */,
-				46FB11DD9DC347ADAA18E679 /* ZERO_CHECK */,
+				E314E31C64BC4A548BB1AA4F /* ALL_BUILD */,
+				15A0DFB436FC4FBFAAA32883 /* MSD-CS6010-Final-Project */,
+				B5C84AEA00A24FCE936DBC31 /* ZERO_CHECK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A18DC9156638982DD588E9B7 /* Generate CMakeFiles/ALL_BUILD */ = {
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5C15C223511FE5E934893A4D /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -218,14 +278,30 @@
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-				"/Users/howard/MSD-CS6010-Final-Project/xcode/CMakeFiles/ALL_BUILD",
-			);
+"/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeFiles/ALL_BUILD"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/howard/MSD-CS6010-Final-Project/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/howard/MSD-CS6010-Final-Project/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/howard/MSD-CS6010-Final-Project/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/howard/MSD-CS6010-Final-Project/xcode\n  echo Build\\ all\\ projects\nfi\n";
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode
+  echo Build\\ all\\ projects
+fi
+";
 			showEnvVarsInLog = 0;
 		};
-		A6CFDEFDA25F17CCB420A6FB /* Generate CMakeFiles/ZERO_CHECK */ = {
+		5FC89867EDA371048BA7EBAD /* Generate CMakeFiles/ZERO_CHECK */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -235,58 +311,147 @@
 			);
 			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-				"/Users/howard/MSD-CS6010-Final-Project/xcode/CMakeFiles/ZERO_CHECK",
+"/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode
+  make -f /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode
+  make -f /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode
+  make -f /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode
+  make -f /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/howard/MSD-CS6010-Final-Project/xcode\n  make -f /Users/howard/MSD-CS6010-Final-Project/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/howard/MSD-CS6010-Final-Project/xcode\n  make -f /Users/howard/MSD-CS6010-Final-Project/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/howard/MSD-CS6010-Final-Project/xcode\n  make -f /Users/howard/MSD-CS6010-Final-Project/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/howard/MSD-CS6010-Final-Project/xcode\n  make -f /Users/howard/MSD-CS6010-Final-Project/xcode/CMakeScripts/ReRunCMake.make\nfi\n";
+			shellScript = "# shell script goes here
+exit 0";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41E36E25C2524187A90B26C8 /* Sources */ = {
+		04B0D8A6AA6B471598187561 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A089F561371487381DF775C /* Ball.cpp in Sources */,
-				ACDDED03DDA547EF8B834F5E /* Obstacles.cpp in Sources */,
-				37C9D22BA6CB4003A8433A0D /* game.cpp in Sources */,
-				EF86567E726E4B459A08D67F /* main.cpp in Sources */,
+				C63E942E78EF48FEB601E488 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Ball.cpp */,
+				B90B7268938D44E699849246 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/Obstacles.cpp */,
+				B35BA1AE35C348969C197E2D /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/TextBox.cpp */,
+				ECC10FBF0EA84B7B8E79B63D /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/game.cpp */,
+				6655E31FB7EA4757ACCFE8B2 /* /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/src/main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F40392AD2F34FA4ACB9F002 /* PBXTargetDependency */ = {
+		42E036E645D84829A2A3B53D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46FB11DD9DC347ADAA18E679 /* ZERO_CHECK */;
-			targetProxy = 8CC06F25B040480694A6774D /* PBXContainerItemProxy */;
+			target = B5C84AEA00A24FCE936DBC31 /* ZERO_CHECK */;
+			targetProxy = F2BB058C877F49DB8300F2ED /* PBXContainerItemProxy */;
 		};
-		CDECA18DC1374AE89B5D0C14 /* PBXTargetDependency */ = {
+		9EEC5635A4E949A080CD7F01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46FB11DD9DC347ADAA18E679 /* ZERO_CHECK */;
-			targetProxy = 4F2CA06EACA8447DA1BFCC40 /* PBXContainerItemProxy */;
+			target = 15A0DFB436FC4FBFAAA32883 /* MSD-CS6010-Final-Project */;
+			targetProxy = 4205458163834930907CB472 /* PBXContainerItemProxy */;
 		};
-		E6D6FB8F132C48FA9D1ED660 /* PBXTargetDependency */ = {
+		DFC7AD538758485F8678BB75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9F8242AE4A24963BF110EF4 /* MSD-CS6010-Final-Project */;
-			targetProxy = A0D355DD107F41329BEAAA24 /* PBXContainerItemProxy */;
+			target = B5C84AEA00A24FCE936DBC31 /* ZERO_CHECK */;
+			targetProxy = CE751EA719E94B1F85518EBF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0831D6EAE3C44D58B081E576 /* Release */ = {
+		13E069324D304D819C51BCC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode/build";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		0B1F174DAD454AD2935888ED /* Debug */ = {
+		1C391B3A94904646B0995433 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3CB78BFAD82C4B21931603BE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4C250298B05041E7BF929B78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -296,359 +461,24 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					/opt/homebrew/lib,
-					"$(inherited)",
-				);
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = "   '-std=c++17' ";
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib",
-					"/opt/homebrew/lib/libsfml-window.2.5.1.dylib",
-					"/opt/homebrew/lib/libsfml-system.2.5.1.dylib",
-					"$(inherited)",
-				);
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib","/opt/homebrew/lib/libsfml-window.2.5.1.dylib","/opt/homebrew/lib/libsfml-system.2.5.1.dylib","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "MSD-CS6010-Final-Project";
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				SYSTEM_HEADER_SEARCH_PATHS = (
-					/opt/homebrew/include,
-					"$(inherited)",
-				);
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		1A1E60761F0D496EB4033790 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = MinSizeRel;
-		};
-		5C102A7A9C64466E84926FB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = Release;
-		};
-		5F5065FDE8EC4F4F8A3EE248 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = RelWithDebInfo;
-		};
-		6D5584B0A82F48F483ECEAE2 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode/build";
-			};
-			name = RelWithDebInfo;
-		};
-		6DF4C19484764E078CA0725A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode/build";
-			};
-			name = MinSizeRel;
-		};
-		8C8F16646DCB44D5AEFEAFF2 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = RelWithDebInfo;
-		};
-		9968DB8EE02745BBA8C5A91B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = Release;
-		};
-		A71B075B65614E80B10E5834 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = MinSizeRel;
-		};
-		AA282ED688C34E169686F0BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode/build";
-			};
-			name = Debug;
-		};
-		AA6F0CE73B394B339921DDFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = Debug;
-		};
-		B60799B4928645AEB716816D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = " $(inherited)";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = Debug;
-		};
-		BDADD3BB0350452DAC506385 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					/opt/homebrew/lib,
-					"$(inherited)",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=c++17'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib",
-					"/opt/homebrew/lib/libsfml-window.2.5.1.dylib",
-					"/opt/homebrew/lib/libsfml-system.2.5.1.dylib",
-					"$(inherited)",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "MSD-CS6010-Final-Project";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				SYSTEM_HEADER_SEARCH_PATHS = (
-					/opt/homebrew/include,
-					"$(inherited)",
-				);
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = RelWithDebInfo;
-		};
-		C0AFD0DB200D48AC9DC69710 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					/opt/homebrew/lib,
-					"$(inherited)",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=c++17'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib",
-					"/opt/homebrew/lib/libsfml-window.2.5.1.dylib",
-					"/opt/homebrew/lib/libsfml-system.2.5.1.dylib",
-					"$(inherited)",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "MSD-CS6010-Final-Project";
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				SYSTEM_HEADER_SEARCH_PATHS = (
-					/opt/homebrew/include,
-					"$(inherited)",
-				);
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
-			};
-			name = MinSizeRel;
-		};
-		E089661C2C6244C38B886920 /* Release */ = {
+		514E906A397E4DA2BD31A287 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -658,90 +488,271 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					/opt/homebrew/lib,
-					"$(inherited)",
-				);
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"'-std=c++17'",
-				);
-				OTHER_LDFLAGS = (
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib",
-					"/opt/homebrew/lib/libsfml-window.2.5.1.dylib",
-					"/opt/homebrew/lib/libsfml-system.2.5.1.dylib",
-					"$(inherited)",
-				);
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib","/opt/homebrew/lib/libsfml-window.2.5.1.dylib","/opt/homebrew/lib/libsfml-system.2.5.1.dylib","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = "MSD-CS6010-Final-Project";
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/howard/MSD-CS6010-Final-Project/xcode";
-				SYSTEM_HEADER_SEARCH_PATHS = (
-					/opt/homebrew/include,
-					"$(inherited)",
-				);
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = "$(inherited)";
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
+		};
+		5468124CF12D4A5A8E19E0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		74BA7842D28A4E29B4597F3B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		83841BAC7925409B92D8A7A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/build";
+			};
+			name = Release;
+		};
+		83AE9885381E4BB19CFEF6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8D984ABB7F8B4F1DB1E63A96 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib","/opt/homebrew/lib/libsfml-window.2.5.1.dylib","/opt/homebrew/lib/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "MSD-CS6010-Final-Project";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		980F88B16C25428ABF16EF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C0366DA0DE80401C8A63E345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/build";
+			};
+			name = Debug;
+		};
+		CB5AF0D25DAB4F70914597FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CB63280E8E0A4F55A184AD69 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		D23739B591B34C21A0D5CE7C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		EC4E84C0765947EAA01325BA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/opt/homebrew/lib/libsfml-graphics.2.5.1.dylib","/opt/homebrew/lib/libsfml-window.2.5.1.dylib","/opt/homebrew/lib/libsfml-system.2.5.1.dylib","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "MSD-CS6010-Final-Project";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04775258159A4AD2943247E4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		170F3221B90D499588E3FB2D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA6F0CE73B394B339921DDFF /* Debug */,
-				9968DB8EE02745BBA8C5A91B /* Release */,
-				1A1E60761F0D496EB4033790 /* MinSizeRel */,
-				5F5065FDE8EC4F4F8A3EE248 /* RelWithDebInfo */,
+				83AE9885381E4BB19CFEF6E8 /* Debug */,
+				5468124CF12D4A5A8E19E0EB /* Release */,
+				74BA7842D28A4E29B4597F3B /* MinSizeRel */,
+				1C391B3A94904646B0995433 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6F9E7676F16241F4A40C33D8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		6B2343E49A404FFC8786BEF6 /* Build configuration list for PBXNativeTarget "MSD-CS6010-Final-Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B60799B4928645AEB716816D /* Debug */,
-				5C102A7A9C64466E84926FB4 /* Release */,
-				A71B075B65614E80B10E5834 /* MinSizeRel */,
-				8C8F16646DCB44D5AEFEAFF2 /* RelWithDebInfo */,
+				4C250298B05041E7BF929B78 /* Debug */,
+				514E906A397E4DA2BD31A287 /* Release */,
+				EC4E84C0765947EAA01325BA /* MinSizeRel */,
+				8D984ABB7F8B4F1DB1E63A96 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C3CCA3FB6C894FE9BFE6070E /* Build configuration list for PBXProject "MSD-CS6010-Final-Project" */ = {
+		72E3F72E83B04EE48FBD48A4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA282ED688C34E169686F0BC /* Debug */,
-				0831D6EAE3C44D58B081E576 /* Release */,
-				6DF4C19484764E078CA0725A /* MinSizeRel */,
-				6D5584B0A82F48F483ECEAE2 /* RelWithDebInfo */,
+				980F88B16C25428ABF16EF32 /* Debug */,
+				13E069324D304D819C51BCC5 /* Release */,
+				CB5AF0D25DAB4F70914597FC /* MinSizeRel */,
+				3CB78BFAD82C4B21931603BE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E4174BC7806F42248C6F0B19 /* Build configuration list for PBXNativeTarget "MSD-CS6010-Final-Project" */ = {
+		933899661080459F9ACD4305 /* Build configuration list for PBXProject "MSD-CS6010-Final-Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B1F174DAD454AD2935888ED /* Debug */,
-				E089661C2C6244C38B886920 /* Release */,
-				C0AFD0DB200D48AC9DC69710 /* MinSizeRel */,
-				BDADD3BB0350452DAC506385 /* RelWithDebInfo */,
+				C0366DA0DE80401C8A63E345 /* Debug */,
+				83841BAC7925409B92D8A7A7 /* Release */,
+				D23739B591B34C21A0D5CE7C /* MinSizeRel */,
+				CB63280E8E0A4F55A184AD69 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D7FA5CFC38D44F6CA92EB232 /* Project object */;
+	rootObject = A0A113E7C9AF4473A635AA09 /* Project object */;
 }

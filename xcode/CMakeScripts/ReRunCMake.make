@@ -5,10 +5,10 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/howard/MSD-CS6010-Final-Project/CMakeLists.txt))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/howard/MSD-CS6010-Final-Project/xcode/CMakeFiles/3.24.2/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/howard/MSD-CS6010-Final-Project/xcode/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/howard/MSD-CS6010-Final-Project/xcode/CMakeFiles/3.24.2/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeFiles/3.24.2/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeFiles/3.24.2/CMakeSystem.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/Cellar/cmake/3.24.2/share/cmake/Modules/CMakeCInformation.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/Cellar/cmake/3.24.2/share/cmake/Modules/CMakeCXXInformation.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/Cellar/cmake/3.24.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake))
@@ -36,5 +36,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/lib/cmake/SFML
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake))
 
-/Users/howard/MSD-CS6010-Final-Project/xcode/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake -H/Users/howard/MSD-CS6010-Final-Project -B/Users/howard/MSD-CS6010-Final-Project/xcode
+/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake -H/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project -B/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project/xcode

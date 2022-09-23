@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C9F8242AE4A24963BF110EF4"
+               BlueprintIdentifier = "15A0DFB436FC4FBFAAA32883"
                BuildableName = "MSD-CS6010-Final-Project"
                BlueprintName = "MSD-CS6010-Final-Project"
                ReferencedContainer = "container:xcode/MSD-CS6010-Final-Project.xcodeproj">
@@ -36,7 +36,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/howard/MSD-CS6010-Final-Project"
+      customWorkingDirectory = "/Users/avishekchoudhury/MSD-CS6010-FinalProject/MSD-CS6010-Final-Project"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -45,7 +45,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C9F8242AE4A24963BF110EF4"
+            BlueprintIdentifier = "15A0DFB436FC4FBFAAA32883"
             BuildableName = "MSD-CS6010-Final-Project"
             BlueprintName = "MSD-CS6010-Final-Project"
             ReferencedContainer = "container:xcode/MSD-CS6010-Final-Project.xcodeproj">
@@ -62,7 +62,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C9F8242AE4A24963BF110EF4"
+            BlueprintIdentifier = "15A0DFB436FC4FBFAAA32883"
             BuildableName = "MSD-CS6010-Final-Project"
             BlueprintName = "MSD-CS6010-Final-Project"
             ReferencedContainer = "container:xcode/MSD-CS6010-Final-Project.xcodeproj">
