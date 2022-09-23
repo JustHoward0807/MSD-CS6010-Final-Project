@@ -12,9 +12,11 @@
 class Ball {
 private:
     sf::Sprite ball;
-    
+    int point = 0;
 public:
-
+    
+    int getPoint();
+    int increasePoint();
     sf::Sprite GetBall();
     void SetPosition(sf::Vector2f position);
     sf::Vector2f GetPosition();

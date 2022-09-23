@@ -44,9 +44,7 @@ void RunGame() {
     fireObstacle.setPosition(sf::VideoMode::getDesktopMode().width+500, screen_height-750);
     fireObstacle.rotate(90);
     
-    //Assert ball x,y position is at the middle of the screen
-//    assert(ball.GetPosition().x == screen_width/2);
-//    assert(ball.GetPosition().y == screen_height/2);
+
     
     // run the program as long as the window is open
     while (window.isOpen())
@@ -68,7 +66,7 @@ void RunGame() {
 
         if (IsColliding(ball, obstacle, fireObstacle, screen_height, screen_width)) {
 //            sound.stop();
-            OpenRestartWindow();
+            OpenRestartWindow(ball);
             
         }
         
@@ -81,7 +79,7 @@ void RunGame() {
         if (IsColliding(ball, obstacle, fireObstacle, screen_height, screen_width)) {
             --life;
             if (life < 1) {
-                OpenRestartWindow();
+                OpenRestartWindow(ball);
                 life = 5;
             }
             window.clear(sf::Color::Black);
@@ -105,7 +103,7 @@ void RunGame() {
         //Making the moving ball, ice obstacles and fireobstacles
         //displayLife(window);
         CreateBall(window, ball);
-        createIceObstacles( window, obstacle);
+        createIceObstacles( window, obstacle, ball);
         createFireObstacles(window, fireObstacle);
         //Displaying the window
         window.display();
@@ -194,7 +192,7 @@ void NameFunction(sf::RenderWindow& window) {
     textBox.draw(window);
 }
 
-void OpenRestartWindow() {
+void OpenRestartWindow(Ball& ball) {
     sf::RenderWindow restartWindow(sf::VideoMode(1000, 1000), "Restart window");
     
     while (restartWindow.isOpen()) {
@@ -207,21 +205,21 @@ void OpenRestartWindow() {
         }
         
         restartWindow.clear(sf::Color::Black);
-        ShowGameDetails(restartWindow);
+        ShowGameDetails(restartWindow, ball);
         restartWindow.display();
     }
 }
 
-void ShowGameDetails(sf::RenderWindow& window) {
+void ShowGameDetails(sf::RenderWindow& window, Ball& ball) {
     
-    CreateScoreBoard(window);
+    CreateScoreBoard(window, ball);
     CreateRestart(window);
     CreateExit(window);
 }
 
-void CreateScoreBoard(sf::RenderWindow& window) {
+void CreateScoreBoard(sf::RenderWindow& window, Ball& ball) {
     std::string playerName = "Player";
-    int points = 5;
+    int points = ball.getPoint();
     sf::Font font;
     if (!font.loadFromFile("arial.ttf")) {
         return;
@@ -291,7 +289,7 @@ bool IsColliding(Ball& ball,Obstacles& obstacle,Obstacles& fireObstacle, float s
     return false;
 }
 
-void createIceObstacles(sf::RenderWindow& window, Obstacles& obstacle) {
+void createIceObstacles(sf::RenderWindow& window, Obstacles& obstacle, Ball& ball) {
     sf::Texture texture;
     float x = obstacle.getPosition().x;
     //keep moving to the left
@@ -312,6 +310,8 @@ void createIceObstacles(sf::RenderWindow& window, Obstacles& obstacle) {
         
         obstacle.setScale(0.2, 0.5);
         
+    } else if (obstacle.getPosition().x == sf::VideoMode::getDesktopMode().width/2) {
+        ball.increasePoint();
     }
     
     window.draw(obstacle.getObstacle());

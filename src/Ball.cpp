@@ -22,15 +22,15 @@ sf::Vector2f Ball::GetPosition() {
     return ball.getPosition();
 }
 
-void Ball::Jump() {
-//    sf::SoundBuffer soundEffect;
-//        if (!soundEffect.loadFromFile("wing.wav")) {
-//            std::cout << "No music file found" << std::endl;
-//        }
-//    sf::Sound sound;
-//    sound.setBuffer(soundEffect);
-//    sound.play();
+int Ball::getPoint() {
+    return point;
+}
 
+int Ball::increasePoint() {
+    return point++;
+}
+
+void Ball::Jump() {
     sf::Vector2f position = ball.getPosition();
     position.y -=30;
     ball.setPosition(position.x, position.y);
