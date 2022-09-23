@@ -6,6 +6,7 @@
 //
 
 #include "Ball.hpp"
+#include <SFML/Audio.hpp>
 
 
 //Return a Sprite class ball
@@ -22,6 +23,14 @@ sf::Vector2f Ball::GetPosition() {
 }
 
 void Ball::Jump() {
+//    sf::SoundBuffer soundEffect;
+//        if (!soundEffect.loadFromFile("wing.wav")) {
+//            std::cout << "No music file found" << std::endl;
+//        }
+//    sf::Sound sound;
+//    sound.setBuffer(soundEffect);
+//    sound.play();
+
     sf::Vector2f position = ball.getPosition();
     position.y -=30;
     ball.setPosition(position.x, position.y);

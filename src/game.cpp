@@ -8,8 +8,16 @@
 #include "game.hpp"
 #include "Ball.hpp"
 #include "Obstacles.hpp"
-
+#include <SFML/Audio.hpp>
 void RunGame() {
+    sf::SoundBuffer soundEffect;
+        if (!soundEffect.loadFromFile("music.wav")) {
+            std::cout << "No music file found" << std::endl;
+        }
+    sf::Sound sound;
+    sound.setBuffer(soundEffect);
+    sound.play();
+
     //Define screen width and height, so don't need to type out again.
     float screen_width = sf::VideoMode::getDesktopMode().width;
     float screen_height = sf::VideoMode::getDesktopMode().height;
@@ -47,6 +55,7 @@ void RunGame() {
         }
         
         if (IsColliding(ball, obstacle, fireObstacle, screen_height, screen_width)) {
+            sound.stop();
             OpenRestartWindow();
             
         }
@@ -132,12 +141,10 @@ void createIceObstacles(sf::RenderWindow& window, Obstacles& obstacle) {
     //if obstacle go outside the screen then back to the right side and change size.
     if (obstacle.getPosition().x < 0) {
         
-        //TODO: Create Random double number
-        //        float random = rand() % 0.9+0.1;
+        double random = rand_range();
         obstacle.setPosition(sf::VideoMode::getDesktopMode().width, obstacle.getPosition().y);
         
-        //TODO: y should be random number
-        obstacle.setScale(0.2,0.4);
+        obstacle.setScale(0.2, 0.5);
         
     }
     
@@ -149,7 +156,8 @@ void createFireObstacles(sf::RenderWindow& window, Obstacles& obstacle) {
     sf::Texture texture;
     float x = obstacle.getPosition().x;
     //Change the speed and moving left
-    x -= 40;
+    int random = rand() % 55 + 40;
+    x -= random;
     obstacle.setPosition(x,obstacle.getPosition().y);
     
     //Set texture
@@ -160,13 +168,12 @@ void createFireObstacles(sf::RenderWindow& window, Obstacles& obstacle) {
     
     //if obstacle go outside the screen then back to the right side and change size.
     if (obstacle.getPosition().x < 0) {
-        //TODO: Create another random double number for scale
         //TODO: Change the fireball height sometimes go outside the wall
         int randomForFireballHeight = rand() % (sf::VideoMode::getDesktopMode().height-600) + 300;
+        double random = rand_range();
         obstacle.setPosition(sf::VideoMode::getDesktopMode().width + 500, randomForFireballHeight);
         
-        //TODO: y should be random number
-        obstacle.setScale(0.2,0.4);
+        obstacle.setScale(0.2,random);
         
     }
     
@@ -184,12 +191,14 @@ void CreateBall(sf::RenderWindow& window, Ball& ball) {
 
     
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space) || sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
-        ball.rotate(-4.f);
+        ball.rotate(-3.f);
         ball.Jump();
+        
+            
     }
     else {
         ball.rotate(1.f);
-        sf::Vector2f newBallPos(ball.GetPosition().x, ball.GetPosition().y + 7);
+        sf::Vector2f newBallPos(ball.GetPosition().x, ball.GetPosition().y + 10);
         ball.SetPosition(newBallPos);
     }
     
@@ -216,4 +225,11 @@ const sf::RectangleShape MakeBrick(float x, float y) {
     brick.setOutlineColor(sf::Color(100, 100, 100));
     brick.setOutlineThickness(10);
     return brick;
+}
+
+double rand_range() {
+    int random = rand() % 4 + 0;
+    double scale[5] = {0.1,0.2,0.3,0.4,0.5};
+
+    return scale[random];
 }

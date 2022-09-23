@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <SFML/Graphics.hpp>
 #include "Ball.hpp"
+
 #include "Obstacles.hpp"
 void RunGame();
 void CreateBall(sf::RenderWindow& window, Ball& ball);
@@ -18,3 +19,5 @@ void OpenRestartWindow();
 const sf::RectangleShape MakeBrick(float x, float y);
 void createIceObstacles(sf::RenderWindow& window, Obstacles& obstacle);
 void createFireObstacles(sf::RenderWindow& window, Obstacles& obstacle);
+
+double rand_range();
