@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C9F8242AE4A24963BF110EF4"
+               BlueprintIdentifier = "88A65C72F2DF49DB83DE8731"
                BuildableName = "MSD-CS6010-Final-Project"
                BlueprintName = "MSD-CS6010-Final-Project"
                ReferencedContainer = "container:xcode/MSD-CS6010-Final-Project.xcodeproj">
@@ -45,7 +45,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C9F8242AE4A24963BF110EF4"
+            BlueprintIdentifier = "88A65C72F2DF49DB83DE8731"
             BuildableName = "MSD-CS6010-Final-Project"
             BlueprintName = "MSD-CS6010-Final-Project"
             ReferencedContainer = "container:xcode/MSD-CS6010-Final-Project.xcodeproj">
@@ -62,7 +62,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C9F8242AE4A24963BF110EF4"
+            BlueprintIdentifier = "88A65C72F2DF49DB83DE8731"
             BuildableName = "MSD-CS6010-Final-Project"
             BlueprintName = "MSD-CS6010-Final-Project"
             ReferencedContainer = "container:xcode/MSD-CS6010-Final-Project.xcodeproj">
