@@ -37,7 +37,6 @@
 		01493DD46D0247C3B62D4162 /* Obstacles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5E7DE9A8E48B386259341 /* Obstacles.cpp */; };
 		0240943928C64885A9AAD0BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE24FEEE413049F1A8EA1C00 /* main.cpp */; };
 		2B62577141FF47A3A8C5FB67 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11BC4CF000304FBBB521F7ED /* Ball.cpp */; };
-		89F6B49E28DE1F3C0047EA4F /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F6B49D28DE1F3C0047EA4F /* test.cpp */; };
 		AA1070C3E50A418B89829D88 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91D75E8FE9BA4CBAB71FE8BC /* game.cpp */; };
 		ED05334014CE4504BFB1A3AB /* TextBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48846F51EDE6423FBE7D284A /* TextBox.cpp */; };
 /* End PBXBuildFile section */
@@ -75,7 +74,6 @@
 		5AD5E7DE9A8E48B386259341 /* Obstacles.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Obstacles.cpp; path = src/Obstacles.cpp; sourceTree = SOURCE_ROOT; };
 		5ED41C8D65024FDCAF559D6F /* MSD-CS6010-Final-Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "MSD-CS6010-Final-Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FC355F18C449DAB7655A95 /* Ball.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Ball.hpp; path = src/Ball.hpp; sourceTree = SOURCE_ROOT; };
-		89F6B49D28DE1F3C0047EA4F /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = test.cpp; path = src/test.cpp; sourceTree = "<group>"; };
 		91D75E8FE9BA4CBAB71FE8BC /* game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game.cpp; path = src/game.cpp; sourceTree = SOURCE_ROOT; };
 		AEFA79A51A184479A4355984 /* Obstacles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Obstacles.hpp; path = src/Obstacles.hpp; sourceTree = SOURCE_ROOT; };
 		BCF8BCB572014A4593ADAB2A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
@@ -125,7 +123,6 @@
 				48846F51EDE6423FBE7D284A /* TextBox.cpp */,
 				91D75E8FE9BA4CBAB71FE8BC /* game.cpp */,
 				BE24FEEE413049F1A8EA1C00 /* main.cpp */,
-				89F6B49D28DE1F3C0047EA4F /* test.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -262,7 +259,6 @@
 				ED05334014CE4504BFB1A3AB /* TextBox.cpp in Sources */,
 				AA1070C3E50A418B89829D88 /* game.cpp in Sources */,
 				0240943928C64885A9AAD0BC /* main.cpp in Sources */,
-				89F6B49E28DE1F3C0047EA4F /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

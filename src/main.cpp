@@ -7,7 +7,6 @@ int main()
     srand(time(NULL));
     RunGame();
     
-//    testFunction();
     
     
     

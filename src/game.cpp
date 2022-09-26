@@ -62,20 +62,11 @@ void RunGame() {
             if (event.type == sf::Event::Closed)
                 window.close();
         }
-        
-
-        if (IsColliding(ball, obstacle, fireObstacle, screen_height, screen_width)) {
-//            sound.stop();
-            OpenRestartWindow(ball);
-            
-        }
-        
-        
-        
 
         //Clear the window with black color
         window.clear(sf::Color::Black);
         
+        //Checking collision
         if (IsColliding(ball, obstacle, fireObstacle, screen_height, screen_width)) {
             --life;
             if (life < 1) {
@@ -98,6 +89,7 @@ void RunGame() {
             j -= 100;
         }
         
+        //TO display life bar on the top left corner
         DisplayLife(window, life);
         
         //Making the moving ball, ice obstacles and fireobstacles
@@ -168,7 +160,6 @@ void OpeningScreen() {
 }
 
 void CreateStart(sf::RenderWindow& window) {
-    
     sf::Texture texture;
     if(!(texture.loadFromFile("Play.png")))
     {
@@ -211,7 +202,6 @@ void OpenRestartWindow(Ball& ball) {
 }
 
 void ShowGameDetails(sf::RenderWindow& window, Ball& ball) {
-    
     CreateScoreBoard(window, ball);
     CreateRestart(window);
     CreateExit(window);
@@ -308,7 +298,7 @@ void createIceObstacles(sf::RenderWindow& window, Obstacles& obstacle, Ball& bal
         double random = rand_range();
         obstacle.setPosition(sf::VideoMode::getDesktopMode().width, obstacle.getPosition().y);
         
-        obstacle.setScale(0.2, 0.5);
+        obstacle.setScale(0.3, random);
         
     } else if (obstacle.getPosition().x == sf::VideoMode::getDesktopMode().width/2) {
         ball.increasePoint();
